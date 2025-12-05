@@ -1,0 +1,9 @@
+name: pydev
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - jupyter
+  - pandas
+  - matplotlib
+  - numpy
