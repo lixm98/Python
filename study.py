@@ -7,3 +7,4 @@ print(sorted(data, reverse=True))
 print(data.median())
 print(data.mode()[0])
 print(round(math.sqrt(122.2), 2))
+# test git pull
