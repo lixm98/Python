@@ -2,11 +2,11 @@
 # Using Abstract Base Classes to enforce class constraints
 
 from abc import ABC, abstractmethod
-
+# 继承了ABC就不能实例化这个类
 class GraphicShape(ABC):
     def __init__(self):
         super().__init__()
-
+# 定义了这个抽象方法意味着你的所有子类都必须要包含这个方法
     @abstractmethod
     def calcArea(self):
         pass
