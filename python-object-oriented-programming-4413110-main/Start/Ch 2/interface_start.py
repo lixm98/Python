@@ -12,7 +12,7 @@ class GraphicShape(ABC):
     def calcArea(self):
         pass
     
-class JSOnify(ABC):
+class JSONify(ABC):
     def __init__(self):
         super().__init__()
         
