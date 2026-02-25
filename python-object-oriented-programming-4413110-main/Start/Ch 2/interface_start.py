@@ -21,7 +21,7 @@ class JSONify(ABC):
         pass
 
 
-class Circle(GraphicShape):
+class Circle(GraphicShape, JSONify):
     def __init__(self, radius):
         self.radius = radius
 
