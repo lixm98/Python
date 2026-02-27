@@ -12,8 +12,8 @@ class Book:
 
     # The __str__ function is used to return a user-friendly string
     # representation of the object
-    def __str__(self):
-        return f"{self.title} by {self.author}, costs {self.price}"
+    # def __str__(self):
+    #     return f"{self.title} by {self.author}, costs {self.price}"
 
     # TODO: __getattribute__ called when an attr is retrieved. Don't
     # directly access the attr name otherwise a recursive loop is created
@@ -27,3 +27,5 @@ class Book:
 
 b1 = Book("War and Peace", "Leo Tolstoy", 39.95)
 b2 = Book("The Catcher in the Rye", "JD Salinger", 29.95)
+print(b1)
+print(b2)
